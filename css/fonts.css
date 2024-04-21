@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'PoppinsBlack';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: 'PoppinsExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: 'PoppinsBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: 'PoppinsSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'PoppinsMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: 'PoppinsRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: 'PoppinsLight';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: 'PoppinsExtraLight';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'PoppinsThin';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/Poppins-Thin.ttf);
+}
