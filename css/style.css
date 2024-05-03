@@ -10,10 +10,7 @@ font-family: 'PoppinsExtraLight';
 font-family: 'PoppinsThin';
 */
 /* Обнуление */
- * {
-  /* outline: solid 2px red;  */
-  /* overflow-x:hidden;  */
-} 
+ 
 html {
  box-sizing: border-box;
 }
@@ -79,8 +76,7 @@ body {
  margin: 0 auto;
 }
 /* Header */
-.header {
-}
+
 /* Navbar */
 .header__navbar {
   padding-top: 55px;  
@@ -113,17 +109,15 @@ body {
   border: solid  2px var(--darck-color);
   border-radius: 5px;
   font-family: 'PoppinsRegular';
-  font-size: 24px;
-  
+  font-size: 24px;  
 }
 .header__burger {
   display: none;
 }
 .header__burger_line {
 }
+
 /* Ferstscreen */
-.header__ferstscreen {
-}
 .header__flex {
   display: flex;
 }
@@ -172,8 +166,7 @@ body {
   min-height: 661px;
 }
 /* Skills */
-.skills {
-}
+
 .skills__title {
   padding-top: 117px;
   text-align: center;
@@ -250,16 +243,12 @@ body {
   margin-bottom: -16px;
   margin-left: 70px;
 }
-.writing .skills_card_content {
-}
 .writing .skills__card_title {
   margin-bottom: 14px;
 }
 .writing .skills__text {
   max-width: 341px;
   margin-bottom: 32px;
-}
-.writing .skills__btn {
 }
 .reading {
   padding-top: 8px;
@@ -273,8 +262,6 @@ body {
   max-width: 371px;
   min-height: 247px;
   margin-bottom: 25px;
-}
-.reading .skills_card_content {
 }
 .reading .skills__card_title {
   padding-left: 7px;
@@ -314,11 +301,8 @@ body {
   max-width: 338px;
   margin-bottom: 26px;
 }
-.listening .skills__btn {
-}
 /* About */
-.about {
-}
+
 .about__grid {  
   padding-top: 153px;
   display: grid;
@@ -367,4 +351,243 @@ body {
   max-width: 500px;
   width: 500px;
   min-height: 500px;
+}
+
+/* Меди запросы 992 */
+@media screen and (max-width:992px) {
+  /* Контейнер */
+  .container {
+    max-width: 932px;
+  }
+  /* Стили для текста */
+  .text_h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .text_h2 {
+    font-size: 36px;
+  }
+  .text_h3 {
+    font-size: 22px;
+  }
+  .text_p {
+    font-size: 16px;
+  }
+  /* стили для кнопки */
+  .btn {
+    width: 196px;
+    height: 57px;
+    font-size: 16px;
+  }
+  /* Header */
+  
+  /* Navbar */
+  
+  .header__navbar {
+    align-items: center;
+    padding-top: 26px;
+  }
+  .header__logo {
+    width: 89px;
+    margin-right: 66px;
+  }
+  .header__menu_item {
+    font-size: 16px;
+    margin-right: 31px;
+    padding-top: 12px;
+  }
+  .header__navbar_btn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  /* Ferstscreen */
+
+  .header__flex_item-left {
+    margin-right: 50px;
+  }
+  .header__title_flex {
+    padding-top: 82px;
+  }
+  .header__title {
+    max-width: 290px;
+    margin-right: 23px;
+    margin-bottom: 22px;
+  }
+  .header__title_img {
+    padding-top: 100px;
+  }
+  .header__title_img img {
+    width: 58.71px;
+    height: 58.71px;
+  }
+  .header__text {
+    font-size: 20px;
+    max-width: 417px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+  .header__btn {
+    width: 292px;
+    height: 80px;
+    font-size: 24px;
+    border-radius: 5px;
+  }
+  .header__img {
+    width: 460px;
+    min-height: 460px;
+    background-position: 14px 17px;
+  }
+
+  /* Skills */
+  
+  .skills__title {
+    padding-top: 84px;
+    margin-bottom: 71px;
+  }
+  .skills__grid {
+    grid-template: 
+    "speaking writing reading" 441px
+    "speaking listening listening";
+    gap: 13px 13px;
+    margin-bottom: 120px;
+  }
+  .speaking {
+    padding-top: 0;
+    padding-left: 31px;
+  }
+  .speaking .skills__card_img {
+    max-width: 260px;
+    min-height: 260px;
+    background-position: -7px 0;
+    margin-bottom: 26px;
+  }
+  .speaking .skills_card_content {
+    margin-right: 25px;
+  }
+  .speaking .skills__card_title {
+    margin-bottom: 14px;
+  }
+  .speaking .skills__text {
+    font-size: 14px;
+    max-width: 249px;
+    line-height: 21px;
+    margin-bottom: 26px;
+  }
+  .speaking .skills__btn {
+    width: 196px;
+    height: 57px;
+    font-size: 16px;
+    margin-bottom: 53px;
+  }
+  .writing {
+    padding-left: 29px;
+  }
+  .writing .skills__card_img {
+    max-width: 205px;
+    min-height: 205px;
+    margin-left: 47px;
+    background-position: 11px 6px;
+    margin-bottom: 2px;
+  }
+  .writing .skills_card_content {
+    margin-right: 28px;
+  }
+  .writing .skills__text {
+    max-width: 244px;    
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 20px;
+  }
+  .reading {
+    padding-left: 26px;
+  }
+  .reading .skills__card_img {
+    max-width: 243px;
+    min-height: 162px;
+    background-position: -23px 8px;
+    margin-bottom: 37px;
+  }
+  .reading .skills_card_content {
+    margin-right: 25px;
+  }
+  .reading .skills__card_title {
+    padding-left: 0;
+    margin-bottom: 9px;
+  }
+  .reading .skills__text { 
+    max-width: 273px;  
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 23px;
+  }
+  .reading .skills__btn {
+    margin-bottom: 21px;
+  }
+  .listening { 
+    padding-left: 32px;
+    padding-top: 0;
+  }
+  .listening .skills__card_img {
+    background-position: -15px 33px;
+    max-width: 254px;
+    min-height: 169px;
+  }
+  .listening .skills_card_content {
+    padding-top: 30px;
+    margin-right: 32px;
+  }
+  .listening .skills__card_title {
+    padding-top: 0;
+    margin-bottom: 10px;
+  }
+  .listening .skills__text {
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 0;
+    margin-bottom: 18px;
+  }
+
+  /* About */
+  
+  .about__grid {
+    padding-top: 6px;
+    grid-template:
+        "about__title about__img" 36px
+        "about__content about__img";
+  }
+  .about__title {
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+  .about__content {
+    margin-right: 0;
+    max-width: 512px;
+  }
+  .about__text {
+    padding-top: 38px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  .about__content_flex {
+    padding-left: 10px;
+  }
+  .about__card:last-child {
+    margin-right: 106px;
+  }
+  .about__card_number {
+    font-size: 30px;
+  }
+  .about__card_text {
+    font-size: 16px;
+  }
+  .about__img {
+    background-position: 43px 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 336px;
+    min-height: 336px;
+    width: 336px;
+  }
 }
