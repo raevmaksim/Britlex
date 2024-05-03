@@ -114,8 +114,6 @@ body {
 .header__burger {
   display: none;
 }
-.header__burger_line {
-}
 
 /* Ferstscreen */
 .header__flex {
@@ -590,4 +588,605 @@ body {
     min-height: 336px;
     width: 336px;
   }
+}
+/* Меди запросы 767 */
+@media screen and (max-width:767px) {
+
+  /* Контейнер */
+
+  .container {
+    max-width: 690px;
+  }
+
+  /* Стили для текста */
+
+  .text_h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .text_h2 {
+    font-size: 30px;
+  }
+  .text_h3 {
+    font-size: 20px;
+  }
+
+  /* стили для кнопки */
+
+  .btn {
+    width: 178px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  /* Header */
+
+  /* Navbar */
+  
+  .header__navbar {
+    padding-top: 41px;
+  }
+  .header__logo {
+    padding-top: 2px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__navbar_btn {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+    width: 30px;
+  }
+  .header__burger_line {
+    height: 3px;
+    background-color: #39515E;
+    border-radius: 1px;
+    margin-bottom: 4px;
+  }
+  .header__burger_line:last-child {
+    width: 70%;
+    margin-bottom: 0;
+  }
+  /* Ferstscreen */
+  .header__flex_item-left {
+    margin-right: 0;
+  }
+  .header__title {
+    max-width: 190px;
+    margin-right: 37px;
+    margin-bottom: 28px;
+  }
+  .header__title br {
+    display: none;
+  }
+  .header__title_img {
+    padding-top: 79px;
+  }
+  .header__title_img img {
+    width: 50.95px;
+    height: 50.95px;
+  }
+  .header__text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+  }
+  .header__btn {
+    width: 236px;
+    height: 65px;
+    font-size: 18px;
+  }
+  .header__img {
+    background-position: 22px 6px;
+    width: 352px;
+    min-height: 352px;
+  }
+
+  /* Skills */
+  
+  .skills__title {
+    padding-top: 80px;
+    margin-bottom: 58px;
+  }
+  .skills__grid {
+    gap: 10px;
+    margin-bottom: 70px;
+  }
+  .speaking {
+    width: 224px;
+    padding-left: 0;
+    padding-top: 31px;
+  }
+  .speaking .skills__card_img {
+    background-position: 1px 0;
+    max-width: 214px;
+    min-height: 214px;
+    margin-bottom: 27px;
+  }
+  .speaking .skills_card_content {
+    padding-left: 18px;
+    margin-right: 0;
+  }
+  .speaking .skills__card_title {
+    margin-bottom: 12px;
+  }
+  .speaking .skills__text {
+    max-width: 197px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 21px;
+  }
+  .speaking .skills__btn {
+    width: 178px;
+    height: 50px;
+    font-size: 13px;
+    margin-bottom: 37px;
+  }
+  .writing {
+    padding-left: 0;
+    width: 227px;
+  }
+  .writing .skills__card_img {
+    background-position: 2px 15px;
+    margin-left: 0;
+    max-width: 200px;
+    min-height: 200px;
+    margin-bottom: 8px;
+  }
+  .writing .skills_card_content {
+    padding-left: 15px;
+    margin-right: 0;
+  }
+  .writing .skills__card_title {
+    padding-left: 2px;
+    margin-bottom: 8px;
+  }
+  .writing .skills__text {
+    padding-left: 5px;
+    max-width: 188px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .reading {
+    padding-left: 0;
+    padding-top: 25px;
+  }
+  .reading .skills__card_img {
+    background-position: -3px 9px;
+    max-width: 216px;
+    min-height: 144px;
+    margin-bottom: 34px;
+  }
+  .reading .skills_card_content {
+    padding-left: 18px;
+    margin-right: 0;
+    width: 228px;
+  }
+  .reading .skills__text {
+    max-width: 201px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .listening {
+    padding-left: 23px;
+  }
+  .listening .skills__card_img {
+    max-width: 202px;
+    min-height: 134px;
+    background-position: -8px 62px;
+  }
+  .listening .skills_card_content {
+    padding-top: 23px;
+    margin-right: 0;
+  }
+  .listening .skills__card_title {
+    margin-bottom: 8px;
+  }
+  .listening .skills__text {
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 576px;
+    margin-bottom: 14px;
+  }
+
+  /* About */
+  
+  .about__content {
+    max-width: 320px;
+  }
+  .about__text {
+    padding-top: 19px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .about__content_flex {
+    padding-left: 8px;
+    justify-content: space-between;
+  }
+  .about__card:last-child {
+    margin-right: 0;
+  }
+  .about__card_number {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+  .about__card_text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .about__img {
+    background-size: contain;
+    max-width: 295px;
+    min-height: 295px;
+    width: 295px;
+  }
+}
+
+/* Меди запросы 575 */
+
+@media screen and (max-width:575px) {
+
+  /* Контейнер */
+
+  .container {
+    max-width: 511px;
+  }
+
+  /* Стили для текста */
+
+  .text_h1 {
+    font-size: 34px;
+  }
+  .text_h2 {
+    font-size: 30px;
+  }
+  .text_h3 {
+    font-size:18px;
+  }
+
+  /* стили для кнопки */
+
+  .btn {
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  /* Header */
+
+  /* Navbar */
+
+  .header__navbar {
+    padding-top: 49px;
+  }
+  .header__burger {
+    width: 42.35px;
+    margin-right: 18px;
+  }
+  .header__burger_line {
+    height: 4.24px;
+    margin-bottom: 5.65px;
+  }
+
+  /* Ferstscreen */
+  
+  .header__flex {
+    flex-direction: column;
+  }
+  .header__flex_item-left {
+    order: 1;
+  }
+  .header__title_flex {
+    padding-top: 11px;
+  }
+  .header__title {
+    margin-right: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 27px;
+  }
+  .header__title_img {
+    display: none;
+  }
+  .header__text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .header__btn {
+    width: 305px;
+    height: 75px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+  }
+  .header__flex_item-right {
+    padding-top: 25px;
+  }
+  .header__img {
+    background-position: 0px -6px;
+    margin: 0 auto;
+    width: 424px;
+    min-height: 424px;
+  }
+
+  /* Skills */
+  
+  .skills__title {
+    padding-top: 120px;
+    padding-left: 12px;
+  }
+  .skills__grid {
+    grid-template:
+        "speaking writing" 534px
+        "reading listening" 534px;
+    gap: 34px 30px;
+    margin-bottom: 100px;
+  }
+  .speaking {
+    width: 240px;
+    padding-top: 0;
+  }
+  .speaking .skills__card_img {
+    background-position: 11px -10px;
+    max-width: 185px;
+    min-height: 185px;
+    margin-bottom: 0;
+  }
+  .speaking .skills_card_content {
+    padding-left: 16px;
+  }
+  .speaking .skills__card_title {
+    margin-bottom: 9px;
+  }
+  .speaking .skills__text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+  .speaking .skills__btn {
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+  }
+  .writing {
+    width: 240px;
+    padding-left: 16px;
+  }
+  .writing .skills__card_img {    
+    background-position: 7px 3px;
+    max-width: 182px;
+    min-height: 182px;
+  }
+  .writing .skills_card_content {
+    padding-left: 0;
+  }
+  .writing .skills__card_title {
+    margin-bottom: 5px;
+    padding-left: 3px;
+  }
+  .writing .skills__text {   
+    padding-left: 5px;
+    max-width: 178px; 
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 131px;
+  }
+  .reading {
+    width: 240px;
+    padding-top: 22px;
+  }
+  .reading .skills__card_img {
+    background-position: -1px 6px;
+    max-width: 198px;
+    min-height: 132px;
+    margin-bottom: 31px;
+  }
+  .reading .skills_card_content {
+    padding-left: 16px;
+  }
+  .reading .skills__card_title {
+    margin-bottom: 11px;
+  }
+  .reading .skills__text {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 120px;
+  }
+  .listening {
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 18px;
+  }
+  .listening .skills__card_img {
+    background-position: -3px 6px;
+    max-width: 206px;
+    min-height: 137px;
+  }
+  .listening .skills_card_content {
+    order: 1;
+  }
+  .listening .skills__card_title {
+    padding-left: 5px;
+  }
+  .listening .skills__text {
+    padding-left: 5px;
+    max-width: 197px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 138px;
+  }
+  
+  /* About */
+  
+  .about__grid {
+    grid-template:
+        "about__title"
+        "about__img"
+        "about__content";
+  }
+  .about__title {
+    text-align: center;
+  }
+  .about__content {
+    max-width: 100%;
+  }
+  .about__text {
+    text-align: center;
+    max-width: 510px;
+    margin-bottom: 45px;
+  }
+  .about__content_flex {
+    padding-left: 53px;
+  }
+  .about__card:last-child {
+    margin-right: 36px;
+  }
+  .about__card_number {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+  .about__card_text {
+    font-size: 14px;
+  }
+  .about__img {
+    background-position: 2px 25px;
+    margin: 0 auto;
+    max-width: 352px;
+    min-height: 352px;
+    width: 352px;
+    margin-bottom: 30px;
+  }  
+}
+
+/* Меди запросы 320 */
+
+@media screen and (max-width:320px) {
+
+  /* Контейнер */
+
+  .container {
+    max-width: 296px;
+  }
+
+  /* Стили для текста */
+
+  .text_h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }  
+  .text_h2 {
+    font-size: 24px;
+  }
+  .text_h3 {
+    font-size:18px;
+  }
+
+  /* стили для кнопки */
+
+  .btn {
+    width: 178px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  /* Header */
+
+  .header {
+  }
+  .header__navbar {
+  }
+  .header__logo {
+  }
+  .header__menu {
+  }
+  .header__menu_item {
+  }
+  .header__navbar_btn {
+  }
+  .header__burger {
+  }
+  .header__burger_line {
+  }
+  .header__ferstscreen {
+  }
+  .header__flex {
+  }
+  .header__flex_item-left {
+  }
+  .header__title_flex {
+  }
+  .header__title {
+  }
+  .text_h1 {
+  }
+  .header__title_img {
+  }
+  .header__text {
+  }
+  .text_p {
+  }
+  .header__btn {
+  }
+  .btn {
+  }
+  .header__flex_item-right {
+  }
+  .header__img {
+  }
+  .skills {
+  }
+  .skills__title {
+  }
+  .text_h2 {
+  }
+  .skills__grid {
+  }
+  .skills__card {
+  }
+  .speaking {
+  }
+  .skills__card_img {
+  }
+  .skills__img {
+  }
+  .skills_card_content {
+  }
+  .skills__card_title {
+  }
+  .text_h3 {
+  }
+  .skills__text {
+  }
+  .skills__btn {
+  }
+  .writing {
+  }
+  .reading {
+  }
+  .listening {
+  }
+  .about {
+  }
+  .about__grid {
+  }
+  .about__title {
+  }
+  .about__content {
+  }
+  .about__text {
+  }
+  .about__content_flex {
+  }
+  .about__card {
+  }
+  .about__card_number {
+  }
+  .about__card_text {
+  }
+  .about__img {
+  }
+  
 }
