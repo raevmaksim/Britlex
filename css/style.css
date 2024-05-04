@@ -1094,11 +1094,16 @@ body {
 
   /* Header */
 
+  /* Navbar */
+
   .header {
   }
   .header__navbar {
+    padding-top: 40px;    
+    padding-left: 2px;
   }
   .header__logo {
+    width: 71px;
   }
   .header__menu {
   }
@@ -1107,9 +1112,16 @@ body {
   .header__navbar_btn {
   }
   .header__burger {
+    padding-top: 6px;
+    width: 32.53px;
+    margin-right: 4px;
   }
   .header__burger_line {
+    height: 3.35px;
+    margin-bottom: 4.47px;
   }
+
+  /* Ferstscreen */
   .header__ferstscreen {
   }
   .header__flex {
@@ -1117,76 +1129,204 @@ body {
   .header__flex_item-left {
   }
   .header__title_flex {
+    padding-top: 27px;
   }
   .header__title {
+    max-width: 220px;
+    text-align: center;
+    margin-bottom: 20px;
   }
   .text_h1 {
   }
   .header__title_img {
   }
   .header__text {
-  }
-  .text_p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 35px;
   }
   .header__btn {
-  }
-  .btn {
+    width: 289px;
+    height: 60px;
+    font-size: 16px;
   }
   .header__flex_item-right {
   }
   .header__img {
+    background-position: -1px 11px;
+    width: 299px;
+    min-height: 299px;
   }
+
+  /* Skiils */
   .skills {
   }
   .skills__title {
-  }
-  .text_h2 {
+    padding-top: 77px;
   }
   .skills__grid {
+    grid-template:
+    "speaking" 600px
+    "writing" 473px
+    "reading" 473px
+    "listening" 473px;
+    gap: 21px;
+    margin-bottom: 70px;
   }
   .skills__card {
   }
   .speaking {
+    padding-top: 20px;
+    width: 290px;
   }
-  .skills__card_img {
+  .speaking .skills__card_img { 
+    background-position: 3px -12px;
+    margin: 0 auto 23px; 
+    width: 213px;  
+    max-width: 213px;
+    min-height: 213px;
   }
-  .skills__img {
+  .speaking .skills__img {
   }
-  .skills_card_content {
+  .speaking .skills_card_content {    
+    padding-left: 16px;
   }
-  .skills__card_title {
+  .speaking .skills__card_title {
+    margin-bottom: 8px;
   }
-  .text_h3 {
+  .speaking .skills__text {
+    padding-left: 3px;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 261px;
+    margin-bottom: 31px;
   }
-  .skills__text {
-  }
-  .skills__btn {
+  .speaking .skills__btn {
+    width: 178px;
+    height: 50px;
+    font-size: 13px;
   }
   .writing {
+    padding-left: 0px;
+    width: 290px;
+  }
+  .writing .skills__card_img {
+    background-position: 5px 16px;
+    margin: 0 auto 52px;
+    width: 204px;
+    max-width: 204px;
+    min-height: 204px;
+  }
+  .writing .skills__img {
+  }
+  .writing .skills_card_content {
+    padding-left: 14px;
+  }
+  .writing .skills__card_title {
+    margin-bottom: 9px;
+  }
+  .writing .skills__text {
+    max-width: 260px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 30px;
+  }
+  .writing .skills__btn {
   }
   .reading {
+    width: 290px;
+  }
+  .reading .skills__card_img {
+    background-position: 6px 7px;
+    margin: 0 auto 52px;
+    width: 236px;
+    max-width: 236px;
+    min-height: 157px;
+  }
+  .reading .skills__img {
+  }
+  .reading .skills_card_content {
+    width: 100%;
+    padding-left: 18px;
+  }
+  .reading .skills__card_title {
+    margin-bottom: 8px;
+  }
+  .reading .skills__text {
+    padding-left: 1px;
+    max-width: 243px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  .reading .skills__btn {
   }
   .listening {
+    width: 290px;
+    padding-left: 0;
   }
+  .listening .skills__card_img {
+    background-position: 6px 3px;
+    margin: 0 auto;
+    width: 232px;
+    max-width: 232px;
+    min-height: 154px;
+  }
+  .listening .skills__img {
+  }
+  .listening .skills_card_content {
+    padding-left: 15px;
+    padding-top: 47px;
+  }
+  .listening .skills__card_title {
+  }
+  .listening .skills__text {
+    max-width: 254px;
+    margin-bottom: 37px;
+  }
+  .listening .skills__btn {
+  }
+
+  /* About */
+
   .about {
   }
   .about__grid {
   }
   .about__title {
+    margin-right: 0;
+    margin-bottom: 51px;
   }
   .about__content {
   }
   .about__text {
+    padding-top: 24px;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 100%;
+    margin-bottom: 33px;
   }
   .about__content_flex {
+    flex-direction: column;
+    padding-left: 0;
   }
   .about__card {
+    margin-bottom: 50px;
   }
+  .about__card:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
   .about__card_number {
   }
   .about__card_text {
   }
   .about__img {
+    background-position: 0 0;
+    margin: 0 auto;
+    max-width: 283px;
+    min-height: 283px;
+    width: 283px
   }
   
 }
