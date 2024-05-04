@@ -1,4 +1,7 @@
-  /*  Шрифты
+  /* 
+
+   Шрифты
+
 font-family: 'PoppinsBlack';
 font-family: 'PoppinsExtraBold';
 font-family: 'PoppinsBold';
@@ -9,6 +12,7 @@ font-family: 'PoppinsLight';
 font-family: 'PoppinsExtraLight';
 font-family: 'PoppinsThin';
 */
+
 /* Обнуление */
  
 html {
@@ -28,13 +32,17 @@ body {
  margin: 0;
  padding: 0;
 }
+
 /* Переменные с цветами */
+
 :root {
  --darck-color: #263238;
  --white-color: #fff;
  --gray-color: #8F95A5;
 }
+
 /* Стили для текста */
+
 .text_h1 {
  font-family: 'PoppinsSemiBold';
  font-size: 64px;
@@ -57,7 +65,9 @@ body {
  font-size: 20px;
  color: var(--gray-color);
 }
+
 /* Стили для кнопки */
+
 .btn {
  width: 218px;
  height: 60px;
@@ -70,14 +80,18 @@ body {
  border: none;
  cursor: pointer;
 }
+
 /* Контэйнер */
+
 .container {
  max-width: 1340px;
  margin: 0 auto;
 }
+
 /* Header */
 
 /* Navbar */
+
 .header__navbar {
   padding-top: 55px;  
   display: flex;
@@ -116,6 +130,7 @@ body {
 }
 
 /* Ferstscreen */
+
 .header__flex {
   display: flex;
 }
@@ -163,6 +178,7 @@ body {
   width: 661px;
   min-height: 661px;
 }
+
 /* Skills */
 
 .skills__title {
@@ -299,6 +315,7 @@ body {
   max-width: 338px;
   margin-bottom: 26px;
 }
+
 /* About */
 
 .about__grid {  
@@ -351,13 +368,131 @@ body {
   min-height: 500px;
 }
 
+/* Pricing */
+
+.pricing {
+}
+.pricing__title {
+  padding-top: 195px;
+  text-align: center;
+}
+.pricing__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.pricing__card {
+}
+.pricing__card:nth-child(1) .pricing__card_img-pd-mg {
+  padding-top: 69px;
+  padding-left: 25px;
+  margin-bottom: 50px;
+}
+.pricing__card:nth-child(1) .pricing__card_img {
+  background-image: url(../img/pricing_1.png);
+  max-width: 311px;
+  min-height: 311px;
+}
+.pricing__card:nth-child(1) .pricing__card_title {
+  margin-bottom: 29px;
+}
+.pricing__card:nth-child(1) .pricing__card_text {
+  margin-bottom: 30px;
+}
+.pricing__card:nth-child(1) .pricing__card_number {
+  padding-top: 7px;
+  padding-left: 26px;
+}
+.pricing__card:nth-child(1) .pricing__card_month {
+  padding-left: 13px;
+}
+.pricing__card:nth-child(2) .pricing__card_img-pd-mg {
+  margin-bottom: 51px;
+  padding-top: 95px;
+  padding-left: 27px;
+}
+.pricing__card:nth-child(2) .pricing__card_img {
+  background-image: url(../img/pricing_2.png);
+  max-width: 391px;
+  min-height: 283px;
+}
+.pricing__card:nth-child(2) .pricing__card_content_pd {
+  padding-left: 30px;
+}
+.pricing__card:nth-child(2) .pricing__card_title {
+  margin-bottom: 33px;
+}
+.pricing__card:nth-child(2) .pricing__card_text {
+  margin-bottom: 60px;
+}
+.pricing__card:nth-child(2) .pricing__card_number {
+  padding-top: 6px;
+  padding-left: 22px;
+}
+.pricing__card:nth-child(2) .pricing__card_month {
+  padding-left: 7px;
+}
+.pricing__card:nth-child(3) .pricing__card_img-pd-mg {
+  margin-bottom: 20px;
+  padding-top: 69px;
+  padding-left: 61px;
+}
+.pricing__card:nth-child(3) .pricing__card_img {
+  background-image: url(../img/pricing_3.png);
+  max-width: 340px;
+  min-height: 340px;
+}
+.pricing__card:nth-child(3) .pricing__card_content_pd {
+  padding-left: 11px;
+
+}
+.pricing__card:nth-child(3) .pricing__card_title {
+  margin-bottom: 30px;
+}
+.pricing__card:nth-child(3) .pricing__card_text {
+  margin-bottom: 60px;
+}
+.pricing__card:nth-child(3) .pricing__card_number {
+  padding-top: 5px;
+  padding-left: 15px;
+}
+.pricing__card:nth-child(3) .pricing__card_month {
+  padding-left: 8px;
+}
+.pricing__card_text {
+  line-height: 29px;
+}
+.pricing__card_price {
+  background-color: #eeeeee;
+  width: 240px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.pricing__card_number {  
+  display: flex;
+  align-items: center;
+  font-family: 'PoppinsRegular';
+  font-size: 30px;
+  color: var(--darck-color);
+}
+.pricing__card_month {
+  font-size: 18px;
+  color: #546269;
+}
+
+
 /* Меди запросы 992 */
+
 @media screen and (max-width:992px) {
+
   /* Контейнер */
+
   .container {
     max-width: 932px;
   }
+
   /* Стили для текста */
+
   .text_h1 {
     font-size: 48px;
     line-height: 64px;
@@ -371,12 +506,15 @@ body {
   .text_p {
     font-size: 16px;
   }
+
   /* стили для кнопки */
+
   .btn {
     width: 196px;
     height: 57px;
     font-size: 16px;
   }
+
   /* Header */
   
   /* Navbar */
@@ -589,7 +727,9 @@ body {
     width: 336px;
   }
 }
+
 /* Меди запросы 767 */
+
 @media screen and (max-width:767px) {
 
   /* Контейнер */
@@ -649,7 +789,9 @@ body {
     width: 70%;
     margin-bottom: 0;
   }
+
   /* Ferstscreen */
+
   .header__flex_item-left {
     margin-right: 0;
   }
@@ -1095,21 +1237,13 @@ body {
   /* Header */
 
   /* Navbar */
-
-  .header {
-  }
+  
   .header__navbar {
     padding-top: 40px;    
     padding-left: 2px;
   }
   .header__logo {
     width: 71px;
-  }
-  .header__menu {
-  }
-  .header__menu_item {
-  }
-  .header__navbar_btn {
   }
   .header__burger {
     padding-top: 6px;
@@ -1122,12 +1256,7 @@ body {
   }
 
   /* Ferstscreen */
-  .header__ferstscreen {
-  }
-  .header__flex {
-  }
-  .header__flex_item-left {
-  }
+
   .header__title_flex {
     padding-top: 27px;
   }
@@ -1135,10 +1264,6 @@ body {
     max-width: 220px;
     text-align: center;
     margin-bottom: 20px;
-  }
-  .text_h1 {
-  }
-  .header__title_img {
   }
   .header__text {
     font-size: 14px;
@@ -1150,8 +1275,6 @@ body {
     height: 60px;
     font-size: 16px;
   }
-  .header__flex_item-right {
-  }
   .header__img {
     background-position: -1px 11px;
     width: 299px;
@@ -1159,8 +1282,7 @@ body {
   }
 
   /* Skiils */
-  .skills {
-  }
+  
   .skills__title {
     padding-top: 77px;
   }
@@ -1172,9 +1294,7 @@ body {
     "listening" 473px;
     gap: 21px;
     margin-bottom: 70px;
-  }
-  .skills__card {
-  }
+  }  
   .speaking {
     padding-top: 20px;
     width: 290px;
@@ -1185,9 +1305,7 @@ body {
     width: 213px;  
     max-width: 213px;
     min-height: 213px;
-  }
-  .speaking .skills__img {
-  }
+  }  
   .speaking .skills_card_content {    
     padding-left: 16px;
   }
@@ -1217,8 +1335,6 @@ body {
     max-width: 204px;
     min-height: 204px;
   }
-  .writing .skills__img {
-  }
   .writing .skills_card_content {
     padding-left: 14px;
   }
@@ -1230,8 +1346,6 @@ body {
     font-size: 12px;
     line-height: 18px;
     margin-bottom: 30px;
-  }
-  .writing .skills__btn {
   }
   .reading {
     width: 290px;
@@ -1259,8 +1373,6 @@ body {
     line-height: 20px;
     margin-bottom: 30px;
   }
-  .reading .skills__btn {
-  }
   .listening {
     width: 290px;
     padding-left: 0;
@@ -1272,32 +1384,20 @@ body {
     max-width: 232px;
     min-height: 154px;
   }
-  .listening .skills__img {
-  }
   .listening .skills_card_content {
     padding-left: 15px;
     padding-top: 47px;
-  }
-  .listening .skills__card_title {
   }
   .listening .skills__text {
     max-width: 254px;
     margin-bottom: 37px;
   }
-  .listening .skills__btn {
-  }
 
   /* About */
-
-  .about {
-  }
-  .about__grid {
-  }
+  
   .about__title {
     margin-right: 0;
     margin-bottom: 51px;
-  }
-  .about__content {
   }
   .about__text {
     padding-top: 24px;
@@ -1316,10 +1416,6 @@ body {
   .about__card:last-child {
     margin-right: 0;
     margin-bottom: 0;
-}
-  .about__card_number {
-  }
-  .about__card_text {
   }
   .about__img {
     background-position: 0 0;
@@ -1327,6 +1423,5 @@ body {
     max-width: 283px;
     min-height: 283px;
     width: 283px
-  }
-  
+  }  
 }
