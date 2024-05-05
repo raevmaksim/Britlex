@@ -370,8 +370,6 @@ body {
 
 /* Pricing */
 
-.pricing {
-}
 .pricing__title {
   padding-top: 195px;
   text-align: center;
@@ -379,8 +377,6 @@ body {
 .pricing__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-.pricing__card {
 }
 .pricing__card:nth-child(1) .pricing__card_img-pd-mg {
   padding-top: 69px;
@@ -726,6 +722,100 @@ body {
     min-height: 336px;
     width: 336px;
   }
+
+  /* Pricing */
+  
+  .pricing__title {
+    padding-top: 129px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 222px;
+    min-height: 222px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_img-pd-mg {
+    padding-top: 40px;
+    padding-left: 15px;
+    margin-bottom: 23px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_title {
+    margin-bottom: 16px;
+  }  
+  .pricing__card:nth-child(1) .pricing__card_text {
+    max-width: 293px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_number {
+    padding-top: 9px;
+    padding-left: 20px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 267px;
+    min-height: 195px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_img-pd-mg {
+    margin-bottom: 25px;
+    padding-top: 65px;
+    padding-left: 7px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_content_pd {
+    padding-left: 26px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_title {
+    margin-bottom: 18px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_text {
+    margin-bottom: 51px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_number {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_month {
+    padding-left: 11px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 242px;
+    min-height: 242px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_img-pd-mg {
+    margin-bottom: 15px;
+    padding-top: 28px;
+    padding-left: 35px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_content_pd {
+    padding-left: 52px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_title {
+    margin-bottom: 10px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_text {
+    margin-bottom: 33px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_number {
+    padding-top: 9px;
+    padding-left: 18px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_month {
+    padding-left: 11px;
+  }
+  .pricing__card_text {
+    line-height: 24px;
+  }
+  .pricing__card_price {
+    width: 205px;
+    height: 45px;
+  }
+  .pricing__card_number {
+    font-size: 24px;
+  }
+  .pricing__card_month {
+    font-size: 16px;
+  }  
 }
 
 /* Меди запросы 767 */
