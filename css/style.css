@@ -1635,8 +1635,6 @@ body {
     max-width: 236px;
     min-height: 157px;
   }
-  .reading .skills__img {
-  }
   .reading .skills_card_content {
     width: 100%;
     padding-left: 18px;
@@ -1702,4 +1700,105 @@ body {
     min-height: 283px;
     width: 283px
   }  
+
+  /* Pricing */
+  
+  .pricing__title {
+    padding-top: 108px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_img {
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    max-width: 248px;
+    min-height: 248px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_img-pd-mg {
+    padding-left: 33px;
+    margin-bottom: 27px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_title {
+    text-align-last: left;
+    padding-left: 32px;
+    margin-bottom: 17px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_text {
+    max-width: 291px;
+    padding-left: 16px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_img {
+    background-size: contain;
+    background-position: 0 5px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    max-width: 257px;
+    min-height: 197px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_img-pd-mg {
+    margin-bottom: 13px;
+    padding-top: 61px;
+    padding-left: 0px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_title {
+    padding-left: 0px;
+    margin-bottom: 25px;
+    max-width: 295px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_text {
+    width: 270px;
+    padding-left: 23px;
+    margin-bottom: 30px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_number {
+    padding-top: 8px;
+    padding-left: 17px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_month {
+    padding-left: 10px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_img {
+    background-size: contain;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    max-width: 241px;
+    min-height: 241px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_img-pd-mg {
+    margin-bottom: 6px;
+    padding-top: 72px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_title {
+    max-width: 290px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_text {
+    max-width: 291px;
+    padding-left: 0px;
+    margin-bottom: 37px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_number {
+    font-size: 18px;
+    padding-left: 16px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_month {
+    padding-left: 5px;
+  }
+  .pricing__card_text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .pricing__card_price {
+    width: 170px;
+    height: 37px;
+  }
+  .pricing__card_number {
+    font-size: 18px;
+  }
+  .pricing__card_month {
+    font-size: 14px;
+  }
+  
 }
