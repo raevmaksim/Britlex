@@ -1054,6 +1054,119 @@ body {
     min-height: 295px;
     width: 295px;
   }
+
+  /* Pricing */
+
+  .pricing {
+  }
+  .pricing__title {
+    padding-top: 108px;
+  }
+  .pricing__grid {
+  }
+  .pricing__card {
+  }
+  .pricing__card:nth-child(1) .pricing__card_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 197px;
+    min-height: 197px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_img-pd-mg {
+    padding-top: 53px;
+    padding-left: 0px;
+    margin-bottom: 23px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_title {
+    margin-bottom: 11px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_text {
+    margin-bottom: 23px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_number {
+    padding-top: 9px;
+    padding-left: 18px;
+  }
+  .pricing__card:nth-child(1) .pricing__card_month {
+    padding-left: 20px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 219px;
+    min-height: 168px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_img-pd-mg {
+    margin-bottom: 22px;
+    padding-top: 83px;
+    padding-left: 25px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_content_pd {
+    padding-left: 30px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_title {
+    padding-left: 38px;
+    max-width: 150px;
+    margin-bottom: 11px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_month {
+    padding-left: 13px;
+  } 
+  .pricing__card:nth-child(2) .pricing__card_text {
+    width: 237px;
+    padding-left: 38px;
+    margin-bottom: 44px;
+  }
+  .pricing__card:nth-child(2) .pricing__card_number {
+    padding-top: 9px;
+    padding-left: 18px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 210px;
+    min-height: 210px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_img-pd-mg {
+    margin-bottom: 14px;
+    padding-top: 48px;
+    padding-left: 3px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_content_pd {
+    padding-left: 2px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_title {
+    max-width: 94px;
+    margin-bottom: 6px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_text {
+    margin-bottom: 49px;
+  }
+  .pricing__card:nth-child(3) .pricing__card_number {
+    font-size: 24px;
+    padding-top: 9px;
+    padding-left: 18px;
+  }
+  .pricing__card_img-pd-mg {
+  }
+  .pricing__card_img {
+  }
+  .pricing__card_content_pd {
+  }
+  .pricing__card_title {
+  }
+  .pricing__card_text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .pricing__card_price {
+  }
+  .pricing__card_number {
+    font-size: 22px;
+  }
+  .pricing__card_month {
+  }
+  
 }
 
 /* Меди запросы 575 */
