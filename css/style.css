@@ -917,9 +917,7 @@ body {
   }  
 
   /* Contact */
-
-  .contact {
-  }
+  
   .contact__grid {
     grid-template:
         "contact__grid_img contact__grid_title" 185px
@@ -945,8 +943,6 @@ body {
     max-width: 440px;
     line-height: 24px;
     margin-bottom: 33px;
-  }
-  .text_p {
   }
   .contact__grid_form {
     margin-bottom: 194px;
@@ -1318,6 +1314,80 @@ body {
   .pricing__card_number {
     font-size: 22px;
   }  
+
+  /* Contact */
+  
+  .contact__grid {
+    grid-template:
+    "contact__grid_img contact__grid_title" 120px
+    "contact__grid_img contact__grid_content";
+  }
+  .contact__grid_img-pd-mg {
+    width: 213px;
+    padding-top: 79px;
+  }
+  .contact__grid_img {
+    background-position: -13px 15px;
+    max-width: 233px;
+    min-height: 210px;
+  }
+  .contact__grid_title {
+    padding-top: 89px;
+    padding-left: 43px;
+    
+  }
+  .contact__grid_content {
+    padding-top: 16px;
+    padding-left: 43px;
+  }
+  .contact__text {    
+    max-width: 411px;
+    padding-left: 2px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 25px;
+  }
+  .contact__grid_form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 142px;
+  }
+  .contact__grid_form-input {
+    width: 283px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 2px;
+  }
+  .contact__grid_form-input::placeholder {
+    font-size: 12px;
+    padding-left: 20px;
+    
+  }
+  .contact__grid_form-btn {
+    border: solid 1px var(--darck-color);
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 5px;
+    width: 145px;
+    height: 50px;
+  }
+
+  /* Footer */
+  .footer__flex {
+    padding-top: 28px;
+    margin-bottom: 25px;
+  }
+  .footer__ul {
+    padding-top: 4px;
+  }
+  .footer__li a {
+    font-size: 13px;
+  }
+  .footer__li {
+    margin-right: 20px;
+    text-indent: -8px;
+  }
+  
 }
 
 /* Меди запросы 575 */
