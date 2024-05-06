@@ -475,6 +475,105 @@ body {
   font-size: 18px;
   color: #546269;
 }
+ 
+/* Contact */
+
+.contact {
+}
+.contact__grid {
+  display: grid;
+  grid-template: 
+  "contact__grid_img contact__grid_title" 360px
+  "contact__grid_img contact__grid_content";
+  border-bottom: solid 1px var(--gray-color);
+}
+.contact__grid_img-pd-mg {
+  grid-area: contact__grid_img;
+  width: 477px;
+  padding-top: 243px;
+  padding-left: 0;  
+}
+.contact__grid_img {
+  background-image: url(../img/contact.png);
+  background-position: -18px 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 477px;
+  min-height: 429px;
+}
+.contact__grid_title {
+  grid-area: contact__grid_title;
+  padding-top: 303px;
+  padding-left: 93px;
+}
+.contact__grid_content {
+  padding-top: 49px;
+  grid-area: contact__grid_content;
+  padding-left: 93px;
+}
+.contact__text {
+  line-height: 29px;
+  margin-bottom: 50px;
+}
+.contact__grid_form {
+  margin-bottom: 220px;
+}
+.contact__grid_form-input {
+  width: 450px;
+  height: 80px;
+  border: solid 1px var(--gray-color);
+  border-radius: 10px;
+  margin-right: 9px;
+}
+.contact__grid_form-input::placeholder {
+  color: var(--gray-color);
+  font-family: 'PoppinsRegular';
+  font-size: 16px;
+  padding-left: 32px;
+}
+.contact__grid_form-btn {
+  width: 264px;
+  height: 80px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* Footer */
+
+.footer__flex {
+  padding-top: 42px;
+  padding-left: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+.footer__logo {
+  width: 106px;
+  height: 30px;
+}
+.footer__ul {
+  padding-top: 16px;
+  display: flex; 
+}
+.footer__li a {
+  text-decoration: none;
+  font-family: 'PoppinsRegular';
+  color: var(--gray-color);
+  font-size: 24px;
+}
+.footer__li {  
+  margin-right: 24px;
+  text-indent: -3px;
+}
+.footer__li::marker {
+}
+.footer__li:first-child {
+  list-style: none;
+}
+.footer__li:last-child {
+  margin-right: 0;
+}
+
 
 
 /* Меди запросы 992 */
@@ -816,6 +915,77 @@ body {
   .pricing__card_month {
     font-size: 16px;
   }  
+
+  /* Contact */
+
+  .contact {
+  }
+  .contact__grid {
+    grid-template:
+        "contact__grid_img contact__grid_title" 185px
+        "contact__grid_img contact__grid_content";
+  }
+  .contact__grid_img-pd-mg {
+    width: 312px;
+    padding-top: 125px;
+  }
+  .contact__grid_img {
+    max-width: 312px;
+    min-height: 281px;
+  }
+  .contact__grid_title {
+    padding-top: 155px;
+    padding-left: 106px;
+  }
+  .contact__grid_content {
+    padding-top: 34px;
+    padding-left: 92px;
+  }
+  .contact__text {
+    max-width: 440px;
+    line-height: 24px;
+    margin-bottom: 33px;
+  }
+  .text_p {
+  }
+  .contact__grid_form {
+    margin-bottom: 194px;
+  }
+  .contact__grid_form-input {
+    width: 323px;
+    height: 60px;
+    margin-right: 8px;
+  }
+  .contact__grid_form-input::placeholder {
+    padding-left: 35px;
+    font-size: 14px;
+  }
+  .contact__grid_form-btn {
+    width: 193px;
+    height: 60px;
+  }
+
+  /* Footer */
+
+  .footer__flex {
+    padding-top: 32px;
+    padding-left: 1px;
+  }
+  .footer__logo {
+    width: 89px;
+    height: 25px;
+  }
+  .footer__ul {
+    padding-top: 9px;
+  }
+  .footer__li a {
+    font-size: 16px;
+  }
+  .footer__li {
+    margin-right: 20px;
+    text-indent: -5px;
+  }
+  
 }
 
 /* Меди запросы 767 */
