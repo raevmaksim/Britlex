@@ -478,8 +478,6 @@ body {
  
 /* Contact */
 
-.contact {
-}
 .contact__grid {
   display: grid;
   grid-template: 
@@ -565,7 +563,8 @@ body {
   margin-right: 24px;
   text-indent: -3px;
 }
-.footer__li::marker {
+li.footer__li::marker {
+  color: var(--gray-color);
 }
 .footer__li:first-child {
   list-style: none;
@@ -1633,6 +1632,7 @@ body {
   }
   .pricing__grid {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 98px;
   }
   .pricing__card:nth-child(1) .pricing__card_img {
     background-size: cover;
@@ -1719,6 +1719,85 @@ body {
   .pricing__card_price {
     margin: 0 auto;
   }  
+
+  /* Contact */
+
+  .contact {
+  }
+  .contact__grid {
+    grid-template:
+    "contact__grid_title"
+    "contact__grid_img"
+    "contact__grid_content";
+  }
+  .contact__grid_img-pd-mg {
+    width: 358px;
+    margin: 0 auto;
+  }
+  .contact__grid_img {
+    background-position: 6px 26px;
+    max-width: 358px;
+    min-height: 322px;
+  }
+  .contact__grid_title {
+    margin-right: 1px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .contact__grid_content {
+    padding-top: 62px;
+    padding-left: 0;
+  }
+  .contact__text {
+    max-width: 490px;
+    padding-left: 21px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+  }
+  .text_p {
+  }
+  .contact__grid_form {
+    border: solid 1px var(--gray-color);    
+    border-radius: 10px;
+    margin-bottom: 144px;
+  }
+  .contact__grid_form-input {
+    border: none;    
+    border-radius: 10px;
+    width: 318px;
+    height: 58px;
+  }
+  .contact__grid_form-input::placeholder {
+    font-size: 13px;
+    padding-left: 23px;    
+  }
+  .contact__grid_form-btn {
+    padding-top: 24px;
+    border-radius: 10px;
+    width: 193px;
+    height: 58px;
+    font-size: 16px;
+  }
+  .btn {
+  }
+
+  /* Footer */
+
+  .footer__flex {
+    padding-top: 34px;
+  }
+  .footer__logo {
+  }
+  .footer__ul {
+  }
+  .footer__li {
+  }
+  .footer__li a {
+    font-size: 12px;
+  }
+
 }
 
 /* Меди запросы 320 */
