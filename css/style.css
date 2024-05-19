@@ -1721,9 +1721,7 @@ li.footer__li::marker {
   }  
 
   /* Contact */
-
-  .contact {
-  }
+  
   .contact__grid {
     grid-template:
     "contact__grid_title"
@@ -1756,8 +1754,6 @@ li.footer__li::marker {
     line-height: 24px;
     margin-bottom: 58px;
   }
-  .text_p {
-  }
   .contact__grid_form {
     border: solid 1px var(--gray-color);    
     border-radius: 10px;
@@ -1780,19 +1776,11 @@ li.footer__li::marker {
     height: 58px;
     font-size: 16px;
   }
-  .btn {
-  }
 
   /* Footer */
 
   .footer__flex {
     padding-top: 34px;
-  }
-  .footer__logo {
-  }
-  .footer__ul {
-  }
-  .footer__li {
   }
   .footer__li a {
     font-size: 12px;
@@ -2119,5 +2107,72 @@ li.footer__li::marker {
   .pricing__card_month {
     font-size: 14px;
   }
+
+  /* Contact */
+
+  .contact {
+  }
+  .contact__grid {
+  }
+  .contact__grid_img-pd-mg {
+    padding-top: 35px;
+    width: 253px;
+  }
+  .contact__grid_img {
+    background-position: 10px 30px;
+    max-width: 253px;
+    min-height: 228px;
+  }
+  .contact__grid_title {
+    padding-top: 0;
+  }
+  .contact__grid_content {
+    padding-top: 68px;
+  }
+  .contact__text {        
+    padding-left: 9px;
+    max-width: 284px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 31px;
+  }
+  .contact__grid_form {
+    flex-direction: column;
+    border: none;
+    margin-bottom: 57px;
+  }
+  .contact__grid_form-input {
+    border: solid 1px var(--gray-color);
+    width: 291px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+  }
+  .contact__grid_form-btn {
+    padding-top: 17px;
+    width: 290px;
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  /* Footer */
+
+  .footer__flex {
+    flex-direction: column;
+    margin-bottom: 46px;
+  }
+  .footer__logo {
+    width: 71px;
+    height: 18px;
+    margin: 0 auto;
+  }
+  .footer__ul {
+    padding-top: 23px;
+    padding-left: 11px;
+  }
+  .footer__li a {
+    font-size: 11px;
+  }
+  
   
 }
