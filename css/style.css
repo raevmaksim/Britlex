@@ -573,16 +573,16 @@ li.footer__li::marker {
   margin-right: 0;
 }
 
+/* Меди запросы 1400 */
 
-
-/* Меди запросы 992 */
-
-@media screen and (max-width:992px) {
+@media screen and (max-width:1400px) {
 
   /* Контейнер */
 
   .container {
     max-width: 932px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* Стили для текста */
@@ -983,14 +983,16 @@ li.footer__li::marker {
   
 }
 
-/* Меди запросы 767 */
+/* Меди запросы 1050 */
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:1050px) {
 
   /* Контейнер */
 
   .container {
     max-width: 690px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* Стили для текста */
@@ -1389,9 +1391,9 @@ li.footer__li::marker {
   
 }
 
-/* Меди запросы 575 */
+/* Меди запросы 810 */
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:810px) {
 
   /* Контейнер */
 
@@ -1788,9 +1790,9 @@ li.footer__li::marker {
 
 }
 
-/* Меди запросы 320 */
+/* Меди запросы 550 */
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:550px) {
 
   /* Контейнер */
 
